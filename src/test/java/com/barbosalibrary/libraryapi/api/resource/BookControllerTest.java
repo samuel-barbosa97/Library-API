@@ -4,6 +4,7 @@ import com.barbosalibrary.libraryapi.api.dto.BookDTO;
 import com.barbosalibrary.libraryapi.exception.BusinessException;
 import com.barbosalibrary.libraryapi.model.entity.Book;
 import com.barbosalibrary.libraryapi.service.BookService;
+import com.barbosalibrary.libraryapi.service.LoanService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayName;
@@ -34,6 +35,7 @@ import static org.mockito.ArgumentMatchers.anyLong;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+
 @ExtendWith(SpringExtension.class)
 @ActiveProfiles("test")
 @WebMvcTest(controllers = BookController.class)
@@ -47,6 +49,9 @@ public class BookControllerTest {
 
     @MockBean
     BookService service;
+
+    @MockBean
+    LoanService loanService;
 
     @Test
     @DisplayName("Deve criar um livro com sucesso.")
