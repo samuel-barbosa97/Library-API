@@ -26,3 +26,7 @@
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## 🛰 Integração
+
+[![Build Status](https://app.travis-ci.com/samuel-barbosa97/Library-API.svg?branch=main)](https://app.travis-ci.com/samuel-barbosa97/Library-API)
