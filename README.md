@@ -19,6 +19,12 @@
 - Java e Orientação a objetos;
 - Desejável noções básicas de Spring Boot.
 
+## 🛰 Integração
+
+[![Build Status](https://app.travis-ci.com/samuel-barbosa97/Library-API.svg?branch=main)](https://app.travis-ci.com/samuel-barbosa97/Library-API)
+[![codecov](https://codecov.io/gh/samuel-barbosa97/Library-API/branch/main/graph/badge.svg?token=DCD2COAV3G)](https://codecov.io/gh/samuel-barbosa97/Library-API)
+
+
 ## 📃 Certificado
 
 ![image](https://user-images.githubusercontent.com/89155684/150455191-e9e1ddb1-2517-48a2-b434-87b21ff9e4d2.png)
@@ -26,8 +32,3 @@
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
-## 🛰 Integração
-
-[![Build Status](https://app.travis-ci.com/samuel-barbosa97/Library-API.svg?branch=main)](https://app.travis-ci.com/samuel-barbosa97/Library-API)
-[![codecov](https://codecov.io/gh/samuel-barbosa97/Library-API/branch/main/graph/badge.svg?token=DCD2COAV3G)](https://codecov.io/gh/samuel-barbosa97/Library-API)
