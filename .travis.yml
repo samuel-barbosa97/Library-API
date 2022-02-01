@@ -1,10 +1,12 @@
 language: java
-jdk:
-  - oraclejdk11
-install:
-  - mvn -N io.takari:maven:wrapper
-  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script:
-  - mvn clean package
+sudo: true
+dist: trusty
+jdk: oraclejdk11
+addons:
+  apt:
+    packages:
+      - oracle-java11-installer
+before_install:
+  - chmod +x mvnw
 after_success:
   - bash <(curl -s https://codecov.io/bash)
