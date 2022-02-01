@@ -30,3 +30,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ## 🛰 Integração
 
 [![Build Status](https://app.travis-ci.com/samuel-barbosa97/Library-API.svg?branch=main)](https://app.travis-ci.com/samuel-barbosa97/Library-API)
+[![codecov](https://codecov.io/gh/samuel-barbosa97/Library-API/branch/main/graph/badge.svg?token=DCD2COAV3G)](https://codecov.io/gh/samuel-barbosa97/Library-API)
